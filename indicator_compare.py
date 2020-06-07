@@ -13,7 +13,7 @@ bfx = Client(
 now = int(round(time.time() * 1000))
 then = now - (1000 * 60 * 60 * 24 * 1) # 1 day ago
 
-SYMBOL = ['tBTCUSD' , 'tETHUSD', 'tLTCUSD']
+SYMBOL = ['tBTCUSD' , 'tETHUSD', 'tLTCUSD'] #3 coins are supported
 
 s=0
 
